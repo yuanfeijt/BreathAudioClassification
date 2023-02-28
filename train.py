@@ -16,7 +16,6 @@ add_arg('pretrained_model', str,    None,                       '预训练模型
 args = parser.parse_args()
 print_arguments(args=args)
 
-# 获取训练器
 trainer = PPAClsTrainer(configs=args.configs, use_gpu=args.use_gpu)
 
 trainer.train(save_model_path=args.save_model_path,
