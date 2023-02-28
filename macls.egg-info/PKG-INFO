@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: macls
+Version: 0.3.0
+Summary: Audio Classification toolkit on Pytorch
+Home-page: https://github.com/yeyupiaoling/AudioClassification_Pytorch
+Download-URL: https://github.com/yeyupiaoling/AudioClassification_Pytorch.git
+Author: yeyupiaoling
+License: Apache License 2.0
+Keywords: audio,pytorch
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BreathAudio
+[![license](Readme/file/license.svg)](LICENSE)
+![license](Readme/file/lanuage.svg)
+## 使用环境
+ - Anaconda 3
+ - Python 3.8
+ - Pytorch 1.12.1
+ - Windows 11 or Ubuntu 18.04
