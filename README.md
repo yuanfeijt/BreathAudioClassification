@@ -1,4 +1,4 @@
-<h1 style="text-align: center">
+<h1 align=center>
     BreathAudio
     <br>
 	<a target="_blank" href="https://github.com/yuanfeijt/BreathAudioClassification/blob/main/LICENSE">
