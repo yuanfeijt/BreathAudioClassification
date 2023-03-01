@@ -1,5 +1,4 @@
 import os
-import librosa
 
 
 def get_data_list(audio_path, list_path):
