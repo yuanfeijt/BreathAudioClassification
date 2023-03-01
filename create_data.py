@@ -1,9 +1,7 @@
 import os
-
 import librosa
 
 
-# 生成数据列表
 def get_data_list(audio_path, list_path):
     sound_sum = 0
     audios = os.listdir(audio_path)
@@ -40,7 +38,7 @@ def create_UrbanSound8K_list(audio_path, metadata_path, list_path):
 
     labels = {}
     for i, line in enumerate(lines):
-        if i == 0:continue
+        if i == 0: continue
         data = line.replace('\n', '').split(',')
         class_id = int(data[6])
         if class_id not in labels.keys():

@@ -2,7 +2,7 @@ import time
 
 from macls.utils.record import RecordAudio
 
-s = input('请输入你计划录音多少秒：')
+s = input('请输入计划录音秒数：')
 record_seconds = int(s)
 save_path = "dataset/save_audio/%s.wav" % str(int(time.time()*1000))
 
